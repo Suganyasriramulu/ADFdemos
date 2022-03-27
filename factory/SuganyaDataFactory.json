@@ -1,0 +1,9 @@
+{
+	"name": "SuganyaDataFactory",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dee6eb91-4084-4599-b508-b2d46aad6835",
+		"tenantId": "ce698ab1-a6dc-4656-a616-01c9dfa46955"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlDatabase1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sugan-adf-sql-server.database.windows.net;initial catalog=ADFDatabase;user id=sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBGN0M4MUI3LTYyNkYtNDA2NC04N0I0LTA3NTFDMTQ1MEQ1M19jZjNjYzhmYi04ODgzLTRkMmUtOTcxMS00ODdiMGQ1ZGY5ZTAiDQp9"
+		}
+	}
+}
